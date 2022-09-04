@@ -123,6 +123,10 @@ header {
 	.logo > p {
 		display: none;
 	}
+
+	.headerName {
+		font-size: 4rem;
+	}
 	
 } 
 
@@ -281,12 +285,7 @@ nav > ul li a:active {
 }
 
 .appName {
-	font-size: 4rem;
 	color: $app-title-color;
-}
-
-.headerName {
-	font-size: 4rem;
 }
 
 .appPrice {
@@ -305,6 +304,7 @@ nav > ul li a:active {
 	}
 
 	.appName {
+		font-size: 3rem;
 		margin-top: 30px;
 		text-align: center;
 	}
