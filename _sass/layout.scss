@@ -281,7 +281,12 @@ nav > ul li a:active {
 }
 
 .appName {
+	font-size: 4rem;
 	color: $app-title-color;
+}
+
+.headerName {
+	font-size: 4rem;
 }
 
 .appPrice {
