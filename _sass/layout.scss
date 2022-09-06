@@ -320,6 +320,9 @@ nav > ul li a:active {
 	font-size: 3.5rem;
 	font-weight: bold;
 	color: $app-description-color;
+	margin-top: 30px;
+	align-items: center;
+	text-align: center;
 }
 
 .appDescriptionContainer {
@@ -327,7 +330,7 @@ nav > ul li a:active {
 	font-weight: normal;
 	width: 100%;
 	align-items: flex-start;
-	margin-top: 45px;
+	margin-top: 30px;
 	flex: 0 1 auto;
 	line-height: 1.5;
 }
