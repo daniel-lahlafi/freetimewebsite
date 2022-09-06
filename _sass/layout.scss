@@ -15,19 +15,6 @@
 
 }
 
-.headerBackground {
-	height: 115px;
-	background-color: rgba($header-color, $header-transparency);
-}
-
-@media only screen and (max-width: 768px) {
-
-	.headerBackground {
-		height: 80px;
-	}
-
-}
-
 .subPageHeaderBackground {
 	background-color: #fff;
 }
@@ -39,7 +26,6 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -65,7 +51,6 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
@@ -398,6 +383,7 @@ nav > ul li a:active {
 	background-size: 400px auto;
 	background-repeat: no-repeat;
 	margin-top: 68px;
+	padding-bottom: 60px;
 }
 
 .iphoneScreen {
