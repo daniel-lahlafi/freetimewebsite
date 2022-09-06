@@ -316,6 +316,12 @@ nav > ul li a:active {
 	
 } 
 
+.appHeadline {
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: $app-description-color;
+}
+
 .appDescriptionContainer {
 	font-size: 2.5rem;
 	font-weight: normal;
