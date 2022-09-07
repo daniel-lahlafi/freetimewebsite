@@ -489,19 +489,8 @@ nav > ul li a:active {
 
 // Feature List
 
-.featuresMembers {
-	grid-area: 0 c;
-	display: flex;
-	flex: 0 1 auto;
-	align-content: flex-start;
-	justify-content: flex-start;
-	flex-grow: 1;
-	flex-wrap: wrap;
-	margin-top: 93px;
-}
-
-.featuresClubs {
-	grid-area: 1 c;
+.features {
+	grid-area: c;
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
