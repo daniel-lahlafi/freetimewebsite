@@ -478,6 +478,15 @@ nav > ul li a:active {
 } 
 
 
+.pointingArrowContainer {
+	align-items: center;
+	justify-content: center;
+}
+
+.pointingArrowText {
+	color: $app-description-color;
+}
+
 // Feature List
 
 .features {
