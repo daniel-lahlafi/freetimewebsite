@@ -34,30 +34,34 @@ youtube_username                          :
 
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+features_members                          :
 
   - title                                 : Join New Clubs
-    description                           : Explore in your local area for new experiences tailored to you. 
+    description                           : Find new clubs in your local area from sports to music to comedy to art and much more.
     fontawesome_icon_name                 : futbol
     
   - title                                 : Meet New People
-    description                           : It's never been easier to meet likeminded people by finding a club through FreeTime
+    description                           : It's never been easier to meet likeminded people by finding a club through FreeTime.
     fontawesome_icon_name                 : user
 
   - title                                 : Easy Communication
-    description                           : Talk directly with clubs for any queries as well as other club mates
+    description                           : Talk directly with clubs for any queries or just to say hi. Connect with friends that you meet through FreeTime and get to know them.
     fontawesome_icon_name                 : comment
 
+
+
+features_clubs                            :
+
   - title                                 : Secure & simple payments
-    description                           : Instead of collecting cash from your members, easily collect instant payments and setup direct direct debits
+    description                           : No more cash from your members! easily collect instant payments and setup direct direct debits for your club.
     fontawesome_icon_name                 : landmark
 
-  - title                                 : Effortless Outreach
-    description                           : Members can quickly find clubs they like and integrate advertising can put your club on top
+  - title                                 : Effortless Outreach and advertising
+    description                           : Easily manage your club's social media and advertising campaigns directly through FreeTime. Reach more people than you ever thought possible.
     fontawesome_icon_name                 : binoculars
   
   - title                                 : Keep members up-to-date
-    description                           : Every club has a social feed that they can post to in order to keep members updated with events
+    description                           : Easily update your members with news and events directly through FreeTime. Every club has a social feed to keep members up-to-date and direct messaging to your club's members.
     fontawesome_icon_name                 : calendar
 
   - title                                 : # New Feature Title
