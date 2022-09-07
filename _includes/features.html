@@ -1,6 +1,7 @@
-<div>
-    <h2 class="featuresHeader">Features for members</h2>
+<div class="featuresContainer">
     <div class="features">
+        <h2 class="featuresHeader">Features for members</h2>
+
         {% for feature in site.features_members %}
 
         {% if feature.title %}
@@ -25,8 +26,9 @@
         {% endfor %}
     </div>
     <br>
-    <h2 class="featuresHeader">Features for clubs</h2>
     <div class="features">
+        <h2 class="featuresHeader">Features for members</h2>
+
         {% for feature in site.features_clubs %}
 
         {% if feature.title %}
