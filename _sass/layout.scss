@@ -321,6 +321,8 @@ nav > ul li a:active {
 }
 
 .featuresHeader {
+    grid-area: 3, 3, 3, 3;
+
 	font-size: 2.5rem;
 	font-weight: bold;
 	margin-top: 30px;
