@@ -321,13 +321,19 @@ nav > ul li a:active {
 }
 
 .featuresHeader {
-    grid-area: 3, 3, 3, 3;
-
 	font-size: 2.5rem;
 	font-weight: bold;
 	margin-top: 30px;
 	align-items: center;
 	text-align: center;
+}
+
+.featureFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 
